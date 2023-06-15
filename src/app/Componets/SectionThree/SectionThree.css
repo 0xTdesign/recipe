@@ -1,0 +1,64 @@
+.checklist {
+  background-image: url(/image/note.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: cover;
+  width: 500px;
+  margin-left: 0px;
+  height: 421px;
+}
+
+.checklist h2 {
+  transform: rotate(362deg);
+  position: relative;
+  top: 110px;
+  left: 213px;
+  margin-bottom: 0px;
+}
+
+.checklist p {
+  transform: rotate(1deg);
+  position: relative;
+  top: 114px;
+  left: 108px;
+  margin-bottom: 0px;
+}
+
+.sectionThree {
+  margin: 20px;
+  display: block;
+  height: 400px;
+  width: 100%;
+  margin-bottom: 200px;
+}
+.pen {
+  display: none;
+}
+
+@media only screen and (min-width: 999px) {
+  .sectionThree {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 200px;
+  }
+  .checklist {
+    background-image: url(/image/note.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+    width: 500px;
+    margin-left: 100px;
+  }
+
+  .pen {
+    position: relative;
+    display: block;
+    width: 127px;
+    height: 323px;
+    right: 200px;
+    top: 141px;
+  }
+}

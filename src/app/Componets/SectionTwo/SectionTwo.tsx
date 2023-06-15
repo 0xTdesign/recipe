@@ -1,0 +1,29 @@
+import "./SectionTwo.css";
+import plate from "public/Image/plate.png";
+import Image from "next/image";
+import chopstick from "public/Image/chopsticks.png";
+
+export default function SectionTwo() {
+  return (
+    <>
+      <section className="sectionOne">
+        <div className="partOne">
+          <h2>About</h2>
+          <p>
+            I'm a passionate food lover who finds joy in cooking a wide variety of cuisines. From the vibrant and aromatic
+            flavors of Asian cuisine to the smoky and savory goodness of BBQ, my taste buds are always ready for an
+            adventure. Exploring different cooking techniques and experimenting with unique ingredients is my way of
+            expressing creativity in the kitchen. Through this blog, I aim to share my culinary experiences, favorite
+            recipes, and tips and tricks I've learned along the way. Join me on this flavorful journey as we celebrate the
+            diversity of food and the joy it brings to our lives. Let's dive into the wonderful world of Asian cuisine and
+            savor the mouthwatering delights of BBQ together!
+          </p>
+        </div>
+        <div className="partTwo">
+          <Image className="plate" src={plate} alt="Plate" />
+        </div>
+      </section>
+      <Image className="chopstick" src={chopstick} alt="chopstick" />
+    </>
+  );
+}

@@ -1,0 +1,24 @@
+.plate {
+  width: 500px;
+  height: 500px;
+}
+
+.chopstick {
+  position: relative;
+  margin-top: 500px;
+  width: 301%;
+}
+
+/* .chopstick {
+  position: relative;
+  left: 200px;
+} */
+
+@media only screen and (min-width: 999px) {
+  .chopstick {
+    position: relative;
+    left: 80px;
+    width: 66%;
+    margin-top: 100px;
+  }
+}

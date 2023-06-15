@@ -1,0 +1,33 @@
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  position: static;
+  bottom: 0;
+  font-size: 0.6rem;
+  color: var(--primary-background);
+}
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 10px 30px;
+  border: 2px solid;
+  background-color: #161616;
+  border-radius: 50px;
+}
+
+.footer-link li {
+  padding: 10px;
+  list-style: none;
+  background-color: #161616;
+}
+
+.footer-link li:hover {
+  color: var(--main-color);
+}
