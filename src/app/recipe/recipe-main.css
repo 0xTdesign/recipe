@@ -1,0 +1,46 @@
+.blog {
+  margin-top: 20px;
+}
+.read-btn {
+  cursor: pointer;
+  font-size: large;
+  border: none;
+  border-radius: 3px;
+  margin-top: 15px;
+  padding: 12px;
+  background-color: var(--btn-colour);
+  color: var(--primary-background);
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: block;
+}
+.post-date {
+  display: block;
+  margin-top: 5px;
+  font-weight: 200;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.published {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.arrows button {
+  cursor: pointer;
+  font-size: 2rem;
+  background-color: var(--primary-background);
+  border: none;
+  padding-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.arrows {
+  text-align: end;
+}

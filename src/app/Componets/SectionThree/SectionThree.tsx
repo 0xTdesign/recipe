@@ -1,4 +1,5 @@
 import "./SectionThree.css";
+
 import pen from "public/Image/pen.png";
 import Image from "next/image";
 
@@ -7,7 +8,7 @@ export default function SectionThree() {
     <section>
       <div className="sectionThree">
         <form action="">
-          <h1>Shopping list</h1>
+          <h1 id="checklist">Shopping list</h1>
           <label htmlFor="usnername"></label>
           <br />
           <input type="text" name="" id="" placeholder="Name" />

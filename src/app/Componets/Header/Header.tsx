@@ -1,13 +1,9 @@
 "use client";
 import React from "react";
 import "./Header.css";
-import { useState } from "react";
 import Image from "next/image";
-import logo from "public/Image/logo.png";
 import logo1 from "public/Image/logo1.png";
-
 import Link from "next/link";
-import { ReactElement } from "react";
 import { faCartShopping, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
@@ -21,13 +17,13 @@ export default function Header() {
       <div className="header-middle">
         <ul className="menu">
           <li className="menu-item">
-            <a href="/">Home</a>
+            <a href="/#home">Home</a>
           </li>
           <li className="menu-item">
-            <a href="/about">About</a>
+            <a href="/#about">About</a>
           </li>
           <li className="menu-item">
-            <a href="/blog">Recipes</a>
+            <Link href="/recipe">Recipes</Link>
           </li>
         </ul>
       </div>
@@ -43,10 +39,12 @@ export default function Header() {
             <FontAwesomeIcon icon={faEnvelope} />
           </li>
           <button className="button__loader">
-            <span className="button__text">
-              Checklist
-              <FontAwesomeIcon icon={faCartShopping} />
-            </span>
+            <a href="#checklist" className="button__text">
+              <span className="black">
+                Checklist
+                <FontAwesomeIcon icon={faCartShopping} />
+              </span>
+            </a>
           </button>
         </ul>
       </div>

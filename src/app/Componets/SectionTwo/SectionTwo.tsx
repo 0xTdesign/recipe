@@ -8,7 +8,7 @@ export default function SectionTwo() {
     <>
       <section className="sectionOne">
         <div className="partOne">
-          <h2>About</h2>
+          <h2 id="about">About</h2>
           <p>
             I'm a passionate food lover who finds joy in cooking a wide variety of cuisines. From the vibrant and aromatic
             flavors of Asian cuisine to the smoky and savory goodness of BBQ, my taste buds are always ready for an

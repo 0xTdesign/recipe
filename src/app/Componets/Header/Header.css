@@ -50,6 +50,10 @@
   height: auto;
 }
 
+.black {
+  color: #161616;
+}
+
 .header-middle .menu {
   font-weight: 600;
   font-size: 1.2rem;
@@ -135,6 +139,9 @@
 
 .button__text {
   position: relative;
+}
+.button__loadert a {
+  color: black;
 }
 
 /* Loading button animation */

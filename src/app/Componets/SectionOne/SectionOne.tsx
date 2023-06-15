@@ -8,7 +8,7 @@ export default function SectionOne() {
     <>
       <section className="sectionOne">
         <div className="partOne">
-          <h2>Home</h2>
+          <h2 id="home">Home</h2>
           <p>
             Welcome to Spice, the ultimate blog site for food enthusiasts! Here, I'll be sharing my favorite recipes that are
             sure to add a burst of flavor to your kitchen. From mouthwatering main courses to indulgent desserts, Spice is
