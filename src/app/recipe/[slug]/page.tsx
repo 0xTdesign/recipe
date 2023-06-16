@@ -3,6 +3,7 @@ import { getPostsBySlug } from "../../lib/post";
 import { notFound } from "next/navigation";
 import "./recipes.css";
 import Image from "next/image";
+import Comments from "@/app/Componets/comments/Comments";
 // import ViewCounter from "@/app/Componets/PageCount/ViewCounter";
 
 type recipesearchParams = { params: { slug: string } };
@@ -30,8 +31,8 @@ export default async function myRecipes({ params }: recipesearchParams) {
             {/* <ViewCounter kvKey={params.slug} /> */}
           </div>
         </div>
-        {/* <Comments slug={params.slug} /> */}
       </div>
+      <Comments slug={params.slug} />
     </section>
   );
 }

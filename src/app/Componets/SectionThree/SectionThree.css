@@ -35,13 +35,12 @@
   display: none;
 }
 
-.save {
+.save button {
   cursor: pointer;
   font-size: large;
-  border: 1px solid;
-  padding: 4px;
+  border: none;
   border-radius: 3px;
-  margin-top: 15px;
+  margin-top: 8px;
   background-color: var(--primary-background);
   color: var(--text-colour);
   font-size: 1.3rem;

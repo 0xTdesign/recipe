@@ -1,0 +1,51 @@
+.comment-container {
+  margin-top: 15px;
+  display: flex;
+}
+
+.comments li {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  list-style: none;
+  padding: 5px;
+}
+
+.dropdown {
+  margin-left: 100px;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  columns: 2;
+  column-gap: 3rem;
+  display: none;
+  position: absolute;
+  background-color: var(--primary-background);
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.comment-section {
+  margin: 0px auto;
+  max-width: 1240px;
+}
+.line {
+  margin-top: 10px;
+  border: 2px solid white;
+}
+
+.form-btn button {
+  cursor: pointer;
+  font-size: large;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--primary-background);
+  color: var(--text-colour);
+  font-size: 1.3rem;
+  font-weight: 400;
+}
