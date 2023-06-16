@@ -7,8 +7,11 @@ import Link from "next/link";
 import { faCartShopping, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { UserButton } from "@clerk/nextjs";
+import { currentUser } from "@clerk/nextjs";
 
-export default function Header() {
+export default async function Header() {
+  const user = await currentUser();
   return (
     <nav className="nav">
       <div className="logo-left">
@@ -37,6 +40,15 @@ export default function Header() {
           </li>
           <li>
             <FontAwesomeIcon icon={faEnvelope} />
+          </li>
+          <li>
+            {user ? (
+              <UserButton afterSignOutUrl="/" />
+            ) : (
+              <Link href="/sign-in" className="nav-link">
+                Sign In
+              </Link>
+            )}
           </li>
           <button className="button__loader">
             <a href="/#checklist" className="button__text">

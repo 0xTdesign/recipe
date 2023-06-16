@@ -2,7 +2,7 @@
 
 import { experimental_useFormStatus as useFormStatus } from "react-dom";
 
-export default function FormStatusButton() {
+export default function FormShoppingButton() {
   const { pending } = useFormStatus();
 
   return (

@@ -20,7 +20,7 @@ export default function CommentForm({ slug, saveCommentAction }: CommentFormProp
       <input type="text" name="username" placeholder="Name" />
       <br />
       <br />
-      <label htmlFor="comment">comment</label>
+      <label htmlFor="comment">Comment</label>
       <br />
       <br />
       <textarea name="comment" cols={30} rows={10}></textarea>
