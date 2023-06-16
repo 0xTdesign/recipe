@@ -3,14 +3,14 @@ import { WEBSITE_URL } from "config";
 // import pen from "/Image/pen.png";
 import Image from "next/image";
 
-export async function getMessage() {
-  const res = await fetch(`${WEBSITE_URL}/api/shoppingList`, { next: { revalidate: 5 } });
-  return res.json();
-}
+// export async function getMessage() {
+//   const res = await fetch(`${WEBSITE_URL}/api/shoppingList`, { next: { revalidate: 5 } });
+//   return res.json();
+// }
 
 export default function SectionThree() {
   console.log(WEBSITE_URL);
-  const message = getMessage();
+  // const message = getMessage();
   return (
     <section>
       <div className="sectionThree">
@@ -27,7 +27,7 @@ export default function SectionThree() {
         </form>
         <div className="checklist">
           <h2>Checklist</h2>
-          <p>{message}</p>
+          {/* <p>{message}</p> */}
         </div>
         <div className="pen-image">
           <Image className="pen" src="/Image/pen.png" alt="pen" width={500} height={500} />
