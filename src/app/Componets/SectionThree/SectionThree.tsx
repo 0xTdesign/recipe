@@ -2,7 +2,6 @@ import "./SectionThree.css";
 import { WEBSITE_URL } from "config";
 import pen from "public/image/pen.png";
 import Image from "next/image";
-import ShoppingButton from "./ShoppingFormButton";
 
 export async function getMessage() {
   const res = await fetch(`${WEBSITE_URL}/api/shoppingList`, { next: { revalidate: 5 } });
@@ -22,7 +21,9 @@ export default function SectionThree() {
           <label htmlFor="message"></label>
           <textarea typeof="text" name="message" cols={30} rows={10} placeholder="Write shopping list"></textarea>
           <br />
-          <ShoppingButton />
+          <div className="save">
+            <button type="submit">Submit</button>
+          </div>
         </form>
         <div className="checklist">
           <h2>Checklist</h2>

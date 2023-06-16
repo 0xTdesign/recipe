@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import "./Header.css";
 import Image from "next/image";
