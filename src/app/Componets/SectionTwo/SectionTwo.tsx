@@ -1,7 +1,7 @@
 import "./SectionTwo.css";
-// import plate from "/Image/plate.png";
+import plate from "public/image/plate.png";
 import Image from "next/image";
-// import chopstick from "/Image/chopsticks.png";
+import chopstick from "public/image/chopsticks.png";
 
 export default function SectionTwo() {
   return (
@@ -20,10 +20,10 @@ export default function SectionTwo() {
           </p>
         </div>
         <div className="partTwo">
-          <Image className="plate" src="/Image/plate.png" alt="Plate" width={500} height={500} />
+          <Image className="plate" src={plate} alt="Plate" width="500" height="500" />
         </div>
       </section>
-      <Image className="chopstick" src="/Image/chopsticks.png" alt="chopstick" width={500} height={500} />
+      <Image className="chopstick" src={chopstick} alt="chopstick" width="500" height="500" />
     </>
   );
 }
