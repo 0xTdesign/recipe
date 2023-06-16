@@ -3,9 +3,10 @@ import { WEBSITE_URL } from "config";
 import pen from "public/image/pen.png";
 import Image from "next/image";
 import ShoppingButton from "./ShoppingFormButton";
+
 export async function getMessage() {
   const res = await fetch(`${WEBSITE_URL}/api/shoppingList`, { next: { revalidate: 5 } });
-  return res.json();
+  return await res.json();
 }
 
 export default function SectionThree() {
