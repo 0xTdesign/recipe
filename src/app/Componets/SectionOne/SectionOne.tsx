@@ -1,7 +1,7 @@
 import "./SectionOne.css";
 import Image from "next/image";
 import food1 from "public/image/food1.png";
-import icecream from "public/image/icecream1.png";
+import icecream from "public/image/icecream.png";
 
 export default function SectionOne() {
   return (
