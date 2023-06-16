@@ -1,5 +1,5 @@
 ---
-title: Thai Chicken Chillie and Basil
+title: thai chicken and chilli basil
 date: 2023-06-15
 image: /image/chickenThai.jpg
 ---
