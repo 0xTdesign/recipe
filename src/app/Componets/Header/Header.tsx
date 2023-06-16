@@ -2,7 +2,7 @@
 import React from "react";
 import "./Header.css";
 import Image from "next/image";
-import logo1 from "../../../../public/Image/logo1.png";
+// import logo1 from "../../../../public/Image/logo1.png";
 import Link from "next/link";
 import { faCartShopping, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <nav className="nav">
       <div className="logo-left">
-        <Image className="logo" src={logo1} alt="logo" />
+        <Image className="logo" src="/Image/logo1.png" alt="logo" width={500} height={500} />
       </div>
       <div className="header-middle">
         <ul className="menu">
