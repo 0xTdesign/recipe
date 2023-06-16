@@ -1,7 +1,7 @@
 import "./SectionTwo.css";
 import plate from "public/image/plate.png";
 import Image from "next/image";
-import chopstick from "public/image/chopsticks.png";
+import chopstick from "public/image/plate.png";
 
 export default function SectionTwo() {
   return (
