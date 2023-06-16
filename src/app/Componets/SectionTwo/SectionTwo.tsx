@@ -10,8 +10,8 @@ export default function SectionTwo() {
         <div className="partOne">
           <h2 id="about">About</h2>
           <p>
-            I'm a passionate food lover who finds joy in cooking a wide variety of cuisines. From the vibrant and aromatic
-            flavors of Asian cuisine to the smoky and savory goodness of BBQ, my taste buds are always ready for an
+            I&apos;m a passionate food lover who finds joy in cooking a wide variety of cuisines. From the vibrant and
+            aromatic flavors of Asian cuisine to the smoky and savory goodness of BBQ, my taste buds are always ready for an
             adventure. Exploring different cooking techniques and experimenting with unique ingredients is my way of
             expressing creativity in the kitchen. Through this blog, I aim to share my culinary experiences, favorite
             recipes, and tips and tricks I've learned along the way. Join me on this flavorful journey as we celebrate the

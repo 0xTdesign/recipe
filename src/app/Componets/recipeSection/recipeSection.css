@@ -1,14 +1,21 @@
-.sectionOne {
+.sectionRecipe {
+  margin-top: 150px;
   display: block;
-  height: 400px;
+  /* height: 400px; */
   width: 100%;
+}
+.pokebowl {
+  margin-left: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 @media only screen and (min-width: 999px) {
-  .sectionOne {
+  .sectionRecipe {
     margin: 0 auto;
     max-width: 1240px;
     display: flex;
+    margin-left: 20px;
   }
   .partOne {
     align-self: center;
@@ -16,5 +23,10 @@
   .partOne h2 {
     font-size: 5rem;
     text-align: center;
+  }
+
+  .pokebowl {
+    width: 500px;
+    height: 500px;
   }
 }

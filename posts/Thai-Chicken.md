@@ -1,7 +1,7 @@
 ---
 title: Thai Chicken Chillie and Basil
 date: 2023-06-15
-image:
+image: /image/chickenThai.jpg
 ---
 
 # Ingredients

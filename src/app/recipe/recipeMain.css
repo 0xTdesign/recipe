@@ -2,26 +2,30 @@
   cursor: pointer;
   font-size: large;
   border: none;
+
+  /* border: 1px solid; */
+  /* padding: 4px; */
   border-radius: 3px;
-  margin-top: 15px;
-  padding: 12px;
-  background-color: var(--btn-colour);
-  color: var(--primary-background);
-  font-size: 1rem;
-  font-weight: 800;
+  background-color: var(--primary-background);
+  color: var(--text-colour);
+  font-size: 0.8rem;
+  font-weight: 400;
 }
 
 .post-title {
   font-size: 1.5rem;
   font-weight: 600;
   display: block;
+  color: var(--text-colour);
 }
+
 .post-date {
   display: block;
   margin-top: 5px;
   font-weight: 200;
   font-size: 0.8rem;
   margin-bottom: 10px;
+  color: var(--text-colour);
 }
 
 .published {
@@ -30,9 +34,15 @@
 }
 .arrows button {
   cursor: pointer;
-  font-size: 2rem;
   background-color: var(--primary-background);
   border: none;
+  padding-right: 15px;
+}
+
+.arrows button a {
+  cursor: pointer;
+  font-size: 2rem;
+  color: var(--text-colour);
   padding-right: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -41,11 +51,37 @@
 .arrows {
   text-align: end;
 }
+.arrows button a:hover {
+  color: var(--main-color);
+}
+
+.fork {
+  width: 96%;
+  height: 100px;
+}
+
+.recipe-blog ul {
+  margin: 10px;
+}
+
+.line {
+  margin-top: 10px;
+  border: 2px solid white;
+}
 
 @media only screen and (min-width: 999px) {
-  .recipe-blog {
+  .main-container {
     margin: 0 auto;
     max-width: 1240px;
-    display: flex;
+    margin-bottom: 200px;
+  }
+  .fork {
+    margin-top: 20px;
+    width: 36%;
+    height: 112px;
+  }
+
+  .recipe-blog li {
+    margin-top: 20px;
   }
 }

@@ -1,30 +1,33 @@
 import "./SectionThree.css";
-
+import { WEBSITE_URL } from "config";
 import pen from "public/Image/pen.png";
 import Image from "next/image";
 
+export async function getMessage() {
+  const res = await fetch(`${WEBSITE_URL}/api/shoppingList`, { next: { revalidate: 5 } });
+  return res.json();
+}
+
 export default function SectionThree() {
+  console.log(WEBSITE_URL);
+  const message = getMessage();
   return (
     <section>
       <div className="sectionThree">
-        <form action="">
+        <form action="/api/shoppingList" method="POST">
           <h1 id="checklist">Shopping list</h1>
-          <label htmlFor="usnername"></label>
-          <br />
-          <input type="text" name="" id="" placeholder="Name" />
           <br />
           <br />
-          <label htmlFor=""></label>
-          <textarea name="" id="" cols={30} rows={10} placeholder="Write shopping list"></textarea>
+          <label htmlFor="message"></label>
+          <textarea typeof="text" name="message" cols={30} rows={10} placeholder="Write shopping list"></textarea>
+          <br />
+          <button className="save" type="submit">
+            Save
+          </button>
         </form>
         <div className="checklist">
           <h2>Checklist</h2>
-          <p>Items</p>
-          <p>Bread</p>
-          <p>Bread</p>
-          <p>Bread</p>
-          <p>Bread</p>
-          <p>Bread</p>
+          <p>{message}</p>
         </div>
         <div className="pen-image">
           <Image className="pen" src={pen} alt="pen" />
