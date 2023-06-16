@@ -1,6 +1,6 @@
 import React from "react";
 import "./recipeSection.css";
-import pokebowl from "/image/pokebowl.png";
+// import pokebowl from "/image/pokebowl.png";
 import Image from "next/image";
 
 export default function recipeSection() {
@@ -17,7 +17,7 @@ export default function recipeSection() {
           </p>
         </div>
         <div className="partTwo">
-          <Image className="pokebowl" src={pokebowl} alt="pokebowl" />
+          <Image className="pokebowl" src="/Image/pokebowl.png" alt="pokebowl" width={500} height={500} />
         </div>
       </section>
     </>
