@@ -1,5 +1,5 @@
 import React from "react";
-import "./recipe-main.css";
+import "./recipeMain.css";
 import RecipeSection from "../Componets/recipeSection/recipeSection";
 import Link from "next/link";
 import { getPosts } from "../lib/post";
@@ -41,7 +41,7 @@ export default async function recipePage({ searchParams }: { searchParams: recip
           <Link href="/recipe?sortBy=desc">&#8595;</Link>
         </button>
       </div>
-      <div className="blog">
+      <div className="recipe-blog">
         <ul>
           {posts.map((post) => {
             return (

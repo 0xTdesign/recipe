@@ -20,7 +20,7 @@ export default async function myRecipes({ params }: recipesearchParams) {
         <div className="title">
           {post.image && <Image className="recipe-image" src={post.image} alt="bear" width="200" height="150" />}
           <div dangerouslySetInnerHTML={{ __html: post.body.html }}></div>
-          <Link href="blog">
+          <Link href="recipe">
             <button>
               Return<span>&#8617;</span>
             </button>

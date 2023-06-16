@@ -39,7 +39,7 @@ export default function Header() {
             <FontAwesomeIcon icon={faEnvelope} />
           </li>
           <button className="button__loader">
-            <a href="#checklist" className="button__text">
+            <a href="/#checklist" className="button__text">
               <span className="black">
                 Checklist
                 <FontAwesomeIcon icon={faCartShopping} />

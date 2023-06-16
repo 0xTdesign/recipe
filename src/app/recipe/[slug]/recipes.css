@@ -23,4 +23,8 @@
     font-size: 5rem;
     text-align: center;
   }
+
+  .recipe {
+    max-width: 1240px;
+  }
 }
