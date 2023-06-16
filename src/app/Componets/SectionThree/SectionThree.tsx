@@ -6,7 +6,7 @@ import ShoppingButton from "./ShoppingFormButton";
 
 export async function getMessage() {
   const res = await fetch(`${WEBSITE_URL}/api/shoppingList`, { next: { revalidate: 5 } });
-  return await res.json();
+  return res.json();
 }
 
 export default function SectionThree() {
