@@ -4,7 +4,9 @@ date: 2023-06-18
 image: /image/Lechon-Belly-3.jpg
 ---
 
-# Ingredients:
+### Pork Lenchon
+
+### Ingredients:
 
 1 slab (5 lbs) pork belly, bones removed
 3 stalks lemongrass leaves
@@ -15,7 +17,7 @@ image: /image/Lechon-Belly-3.jpg
 1/4 teaspoon ground black pepper
 1 tablespoon canola oil
 
-# Instructions:
+### Instructions:
 
 Lay the pork belly on a flat surface with the skin facing down. Rub the salt and pepper all over the meat part. Let it stand for 15 minutes.
 Arrange the lemongrass, scallions, and onion slices on one side of the belly. Roll the pork belly tightly from that side to the opposite side, forming a spiral shape. Secure the rolled pork belly with kitchen twine. Rub the oil all over the skin.

@@ -4,7 +4,9 @@ date: 2023-06-18
 image: /image/fishTacos.jpg
 ---
 
-# INGREDIENTS
+# Beer battered Fish Tacos
+
+### INGREDIENTS
 
 - 1 lb cod (See Note 1)
 - 8 corn tortillas
@@ -33,7 +35,7 @@ Garnish:
 - Pico de Gallo
 - Salsa Verde
 
-# Instructions
+### Instructions
 
 1. Season the fish on both sides with salt and set aside.
 2. In a large bowl, whisk together the slaw dressing ingredients. Add the shredded cabbage and toss to coat. Set aside.

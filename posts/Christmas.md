@@ -4,7 +4,9 @@ date: 2023-06-18
 image: /image/chutney.webp
 ---
 
-# INGREDIENTS
+# Christmas Chutney
+
+### INGREDIENTS
 
 - 12 oz (350 g) pitted ready-to-eat prunes
 - 10 oz (275 g) ready-to-eat dried apricots
@@ -16,7 +18,7 @@ image: /image/chutney.webp
 - 3 oz (75 g) allspice berries
 - 1 lb (450 g) demerara sugar
 
-# Instructions
+### Instructions
 
 Chop the dried fruits and onions very small using a food processor, mincer, or a sharp knife.
 In a large saucepan, combine the vinegar, salt, and ginger. Securely tie the allspice berries in a piece of muslin or gauze and add them to the pan.

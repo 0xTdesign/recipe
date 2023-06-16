@@ -1,17 +1,19 @@
 ---
-title: thai chicken and chilli basil
+title: Thai chicken and chilli basil
 date: 2023-06-15
 image: /image/chickenThai.jpg
 ---
 
-# Ingredients
+# Thai chicken and chilli basil
 
-## For the egg:
+### Ingredients
+
+For the egg:
 
 - 1 egg
 - 2 tablespoons of oil for frying
 
-## Basil chicken:
+### Basil chicken:
 
 - 1 chicken breast (about 200 grams)
 - 5 cloves of garlic
@@ -23,7 +25,7 @@ image: /image/chickenThai.jpg
 - ½ teaspoon sugar
 - Handful of Thai holy basil leaves
 
-# Instructions
+### Instructions
 
 Fry the egg: Heat oil in a wok or frying pan. Add the egg and cook to desired doneness. Remove from heat and set aside.
 Basil chicken:
