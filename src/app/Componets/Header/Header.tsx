@@ -2,7 +2,7 @@
 import React from "react";
 import "./Header.css";
 import Image from "next/image";
-import logo1 from "/public/Image/logo1.png";
+import logo1 from "public/image/logo1.png";
 import Link from "next/link";
 import { faCartShopping, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
