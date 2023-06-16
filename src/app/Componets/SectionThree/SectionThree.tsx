@@ -1,6 +1,6 @@
 import "./SectionThree.css";
 import { WEBSITE_URL } from "config";
-// import pen from "/Image/pen.png";
+import pen from "public/image/pen.png";
 import Image from "next/image";
 
 // export async function getMessage() {
@@ -30,7 +30,7 @@ export default function SectionThree() {
           {/* <p>{message}</p> */}
         </div>
         <div className="pen-image">
-          <Image className="pen" src="/Image/pen.png" alt="pen" width={500} height={500} />
+          <Image className="pen" src={pen} alt="pen" width="500" height="500" />
         </div>
       </div>
     </section>

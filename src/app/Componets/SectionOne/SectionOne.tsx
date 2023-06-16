@@ -1,7 +1,7 @@
 import "./SectionOne.css";
 import Image from "next/image";
-// import food1 from "/Image/food1.png";
-// import icecream from "/Image/icecream1.png";
+import food1 from "public/image/food1.png";
+import icecream from "public/image/icecream1.png";
 
 export default function SectionOne() {
   return (
@@ -19,10 +19,10 @@ export default function SectionOne() {
           </p>
         </div>
         <div className="partTwo">
-          <Image className="food" src="/Image/food1.png" alt="Drink" width={500} height={500} />
+          <Image className="food" src={food1} alt="Drink" width="500" height="500" />
         </div>
       </section>
-      <Image className="icecream" src="/Image/icecream1.png" alt="icecream" width={500} height={500} />
+      <Image className="icecream" src={icecream} alt="icecream" width="500" height="500" />
     </>
   );
 }
