@@ -12,8 +12,8 @@ export default function recipeSection() {
           <p>
             Welcome to my culinary blog, where I share my favorite recipes that I genuinely enjoy cooking. From comforting
             chicken pot pie to fragrant Thai basil chicken, these dishes are sure to tantalize your taste buds. Feel free to
-            explore, try them out, and don't forget to leave comments on your favorites! Let&apos;s embark on this delicious
-            journey together.
+            explore, try them out, and don&apos;t forget to leave comments on your favorites! Let&apos;s embark on this
+            delicious journey together.
           </p>
         </div>
         <div className="partTwo">
