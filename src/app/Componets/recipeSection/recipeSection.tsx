@@ -1,6 +1,6 @@
 import React from "react";
 import "./recipeSection.css";
-import pokebowl from "public/image/pokebowl.png";
+import pokebowl from "/image/pokebowl.png";
 import Image from "next/image";
 
 export default function recipeSection() {
