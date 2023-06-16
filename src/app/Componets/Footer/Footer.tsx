@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import { ReactElement } from "react";
 import { faCartShopping, faEnvelope, faCopyright } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";

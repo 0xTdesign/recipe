@@ -1,6 +1,6 @@
 import "./SectionThree.css";
 import { WEBSITE_URL } from "config";
-import pen from "public/Image/pen.png";
+import pen from "public/image/pen.png";
 import Image from "next/image";
 
 export async function getMessage() {

@@ -22,7 +22,7 @@ export default async function myRecipes({ params }: recipesearchParams) {
           <div dangerouslySetInnerHTML={{ __html: post.body.html }}></div>
           <Link href="/recipe">
             <button>
-              Return<span>&#8617;</span>
+              Return <span>&#8617;</span>
             </button>
           </Link>
           <div className="views">

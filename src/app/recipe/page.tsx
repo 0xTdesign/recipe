@@ -7,7 +7,7 @@ import { compareAsc } from "date-fns";
 import { Post } from "contentlayer/generated";
 import { format, parseISO } from "date-fns";
 import Image from "next/image";
-import fork from "public/Image/gabel2.png";
+import fork from "public/image/gabel2.png";
 
 type recipesearchParams = {
   [key: string]: string;
