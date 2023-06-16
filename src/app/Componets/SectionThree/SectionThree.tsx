@@ -10,7 +10,7 @@ export async function getMessage() {
 
 export default function SectionThree() {
   console.log(WEBSITE_URL);
-  const message = getMessage();
+  // const message = getMessage();
   return (
     <section>
       <div className="sectionThree">
@@ -27,7 +27,7 @@ export default function SectionThree() {
         </form>
         <div className="checklist">
           <h2>Checklist</h2>
-          <p>{message}</p>
+          {/* <p>{message}</p> */}
         </div>
         <div className="pen-image">
           <Image className="pen" src={pen} alt="pen" width="500" height="500" />
