@@ -1,6 +1,5 @@
 "use client";
 import "./Comments.css";
-import { kv } from "@vercel/kv";
 
 import { experimental_useFormStatus as useFormStatus } from "react-dom";
 
